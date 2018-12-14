@@ -71,5 +71,9 @@
       $(this).removeClass("floating-label-form-group-with-focus");
     });
   });
+    $('.link').click(function () {
+    var link = $(this).attr('href');
+    window.open(link);
+  });
 
 })(jQuery); // End of use strict
